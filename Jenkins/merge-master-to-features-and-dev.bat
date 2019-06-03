@@ -5,8 +5,8 @@ echo "********************************"
 
 	git checkout --track origin/develop
 	git pull .
-	git merge origin/master
-	git push origin develop
+	git merge master
+	git push develop
 
 pause
 

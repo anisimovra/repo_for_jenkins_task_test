@@ -1,4 +1,5 @@
 #!/bin/bash
+# Changes in master branch
 set -e
 
 BRANCH=`git rev-parse --abbrev-ref HEAD`

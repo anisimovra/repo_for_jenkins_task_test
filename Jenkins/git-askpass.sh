@@ -5,6 +5,7 @@
 # 2. Add Binding for Username and password (separated)
 # 3. Specify GIT_USER and GIT_PASSWORD as variable names
 
+call-ssh-agent
 case $1 in
  Username*) echo $GIT_USER;;
  Password*) echo $GIT_PASSWORD;;

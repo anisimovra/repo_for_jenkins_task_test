@@ -9,3 +9,5 @@ case $1 in
  Username*) echo $GIT_USER;;
  Password*) echo $GIT_PASSWORD;;
 esac
+
+# Let's use this row for change

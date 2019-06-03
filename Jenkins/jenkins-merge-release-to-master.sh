@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# New row on this reppo
 cd `dirname $0`
 
 JSON=`curl -s https://i.bspb.ru/version.json || exit $?`

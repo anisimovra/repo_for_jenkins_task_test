@@ -4,6 +4,7 @@
 #   To fetch all remote branches, in advanced Git settings, specify Refspec: +refs/heads/*:refs/remotes/origin/*
 #   Add Prune stale remote branches
 #   Add Check out to specific local branch
+# Real talk, think about it.
 
 RELEASES=`git branch -r | fgrep origin/release | sed 's@ *origin/@@'`
 
